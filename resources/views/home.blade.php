@@ -10,14 +10,17 @@
                 </div>
 
                 <div class="card-body">
+                    <form method="POST" action="https://developer.globelabs.com.ph/dialog/oauth/Mk4Ru6oBaetq5cd6rnTBnLtKGkpKurpg">
+                        @csrf
                         <div class="form-group row mb-0">
                             <div class="col-md-6">
-                                <button type="submit" class="btn btn-primary">
-                                    {{ __('Send SMS') }}
+                            <button type="submit" class="btn btn-primary">
+                                    Register your number
                                 </button>
                             </div>
                         </div>
                     </form>
+                    
                 </div>
             </div>
         </div>
